@@ -12,8 +12,8 @@ minikube start && \
 
 # Enabling addons: ingress, dashboard
 minikube addons enable ingress && \
-minikube addons enable dashboard && \
 minikube addons enable metrics-server && \
+minikube addons enable dashboard && \
 minikube addons enable registry && \
 # Showing enabled addons
 echo '\n\n\033[4;33m Enabled Addons \033[0m' && \
